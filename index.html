@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tailor IQ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🧵 Tailor IQ Booking</h1>
+
+  <form id="orderForm">
+    <input type="text" id="name" placeholder="Customer Name" required>
+    <input type="text" id="phone" placeholder="Phone Number" required>
+    
+    <select id="service">
+      <option value="Blouse">Blouse Stitching</option>
+      <option value="Kurti">Kurti Stitching</option>
+      <option value="Alteration">Alteration</option>
+    </select>
+
+    <button type="submit">Book Now</button>
+  </form>
+
+  <h2>Orders</h2>
+  <ul id="ordersList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
